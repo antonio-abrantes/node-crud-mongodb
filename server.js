@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 
+//https://cloud.mongodb.com/user#/atlas/login
 const MongoClient = require('mongodb').MongoClient;
 const uri = "mongodb+srv://<usuario>:<senha>@crud-node-bpm2g.mongodb.net/test?retryWrites=true&w=majority";
 
